@@ -27,26 +27,32 @@
             padding: 20px;
         }
         .container {
-            max-width: 600px;
+            max-width: 650px;
             width: 100%;
             text-align: center;
         }
         .logo {
-            max-width: 200px;
+            max-width: 260px;
             width: 100%;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            transition: transform 0.3s;
+        }
+        .logo:hover {
+            transform: scale(1.05);
         }
         h1 {
-            font-size: 2.5em;
-            color: #ff8c00;
-            margin-bottom: 10px;
+            font-size: 3.2em;
+            color: #FF6A00;
+            margin-bottom: 12px;
             text-transform: uppercase;
-            letter-spacing: 4px;
+            letter-spacing: 5px;
+            text-shadow: 0 0 25px rgba(255, 106, 0, 0.7);
         }
         .subtitle {
             color: #666;
-            margin-bottom: 40px;
-            font-size: 0.9em;
+            margin-bottom: 45px;
+            font-size: 1em;
+            line-height: 1.5;
         }
         .links {
             display: flex;
@@ -55,20 +61,21 @@
         }
         a {
             display: block;
-            padding: 15px 20px;
+            padding: 16px 22px;
             background: #1a1a1a;
             color: #e0e0e0;
             text-decoration: none;
             border: 1px solid #333;
             transition: all 0.2s;
-            font-size: 1em;
+            font-size: 1.05em;
             text-align: left;
         }
         a:hover {
-            background: #ff8c00;
+            background: #FF6A00;
             color: #000;
-            border-color: #ff8c00;
+            border-color: #FF6A00;
             transform: translateX(5px);
+            box-shadow: 0 0 15px rgba(255, 106, 0, 0.4);
         }
         a span {
             color: #666;
@@ -79,9 +86,9 @@
             color: #000;
         }
         .footer {
-            margin-top: 40px;
+            margin-top: 45px;
             color: #444;
-            font-size: 0.8em;
+            font-size: 0.85em;
         }
     </style>
 </head>
